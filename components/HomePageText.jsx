@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function HomePageText() {
   return (
     <div>
-      <div className="relative w-full h-40 ">
+      <div className="relative w-full h-40 bg-white">
         {/* Background Image */}
         <Image
           src={img}
@@ -25,7 +25,7 @@ export default function HomePageText() {
 
       {/* উপদেশ */}
       <div
-        className="p-2 bg-[#FBFBFB] shadow-lg shadow-pink-100 rounded-full"
+        className="p-2 bg-[#FBFBFB] shadow-lg shadow-pink-100 rounded-3xl"
         title="আপনি বিয়ে করতে চাইলে আমরা আপনাকে কিছুটা সাহায্য করতে পারি।😉"
       >
         <p className="text-2xl sm:text-4xl p-4  font-bold  text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-pulse text-center ">
